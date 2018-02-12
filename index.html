@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Kpt. Kurt</title>
+    <meta name="description" content="Kpt. Kurt ist ein HTML5 Arcade-Weltraum-Shooter Spiel">
+    <meta name="keywords" lang="de" content="Kpt. Kurt, Kapitän Kurt, Kurt, Spiel, Arcade, Weltraum, Shooter, HTML5, Wolfy7, W7">
+    <meta name="keywords" lang="en" content="Cpt. Kurt, Captain Kurt, Kurt, Game, Arcade, Space, Shooter, HTML5, Wolfy7, W7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="author" content="Wolfy7">
+    <meta name="application-name" content="Kpt. Kurt">
+    <link href="w7.ico" type="image/x-icon" rel="icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="assetLoader.js"></script>
+    <script src="game.js"></script>
+    <script src="enemies.js"></script>
+    <script src="weapons.js"></script>
+    <!-- <script src="test.js"></script> -->
+  </head>
+  <body>
+    <div id="gameBoard">
+      <div id="overlay">
+      </div>
+      <div id="debug_info">
+      </div>
+      <div id="progress_box">
+        <h2>Loading...</h2>
+        <progress id="progress_bar" max="100" value="0"></progress>
+        <span id="progress_text">0%</span>
+      </div>
+      <canvas id="gameboard">
+        Your browser does not support canvas. Please try again with a different browser.
+      </canvas>
+      <!--
+      <div id="gameInfo">
+        <div>Leben</div>
+        <div>Time</div>
+        <div>Score</div>
+        <div>Sound/Options</div>
+      </div>
+      -->
+    </div>
+  </body>
+</html>
